@@ -4,28 +4,28 @@ public class Calculator {
 	
 //Test Comment
 
-	public static int add(int num1, int num2) {
-		int sum = num1 + num2;
-		System.out.println("num1:" + num1 + ",num2:" + num2 + ",sum:" + sum);
+	public static int add(int a, int b) {
+		int sum = a + b;
+		System.out.println("a:" + a + ",b:" + b + ",sum:" + sum);
 		return sum;
 	}
 	
-	public static int subtract(int num1, int num2) {
-		int sum = num1 - num2;
-		System.out.println("num1:" + num1 + ",num2:" + num2 + ",sum:" + sum);
-		return sum;
+	public static int subtract(int a,int b){
+		int sub = a - b;
+		System.out.println("a:" + a +",b:"+ b +",sum:" +sub);
+		return sub;
 	}
 	
-	public static int multiply(int num1, int num2) {
-		int sum = num1 * num2;
-		System.out.println("num1:" + num1 + ",num2:" + num2 + ",product:" + sum);
-		return sum;
+	public static int multiply(int a,int b){
+		int product= a * b;
+		System.out.println("a:" + a +",b:"+ b + ",product:" +product);
+		return product;
 	}
 	
 
-	public static int divide(int num1, int num2) {
-		int result = num1 / num2;
-		System.out.println("num1:" + num1 + ",num2:" + num2 + ",result:" + result);
+	public static int divide(int a, int b){
+		int result = a / b;
+		System.out.println("a:" + a +",b:"+ b + ",product:" +product);
 		return result;
 	}
 	
